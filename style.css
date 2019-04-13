@@ -81,3 +81,28 @@ ul {
   text-align: center;
   color: white;
 }
+
+.rise-wrap i {
+  font-size: 40px;
+  animation: upAndDown infinite;
+}
+
+.rise-effect {
+}
+
+@keyframes upAndDown {
+  from {
+    padding: 10px;
+  }
+  to {
+    padding: 0px;
+  }
+}
+
+@keyframes riseUp {
+  from {
+  }
+
+  to {
+  }
+}
